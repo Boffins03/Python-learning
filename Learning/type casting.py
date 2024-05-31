@@ -1,0 +1,11 @@
+a=10
+print(a)
+a=(input('Enter_new_value_'))
+print(a)
+print(type(a))
+# input()
+print('New_value',a)
+b=input('Enter_a_second_number')
+sum=int(a)+int(b)
+print(sum)
+print(type(sum))
