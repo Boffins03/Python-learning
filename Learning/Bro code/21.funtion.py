@@ -7,12 +7,16 @@ def multi(*list):
         return a
     else:
         for i in list:
-            a=i*i
+            a=i
         return a
     
 
-x=multi(1,2,3,4,5)
-print(x)  
+x = multi(1,2,3,4,5)
+y = multi(5)
+
+print(x)
+print(y)
+
 def default(a,b=1,c=1,d=10):
     x=a*b*c*d
     return x
